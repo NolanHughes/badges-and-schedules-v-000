@@ -16,7 +16,7 @@ def assign_rooms(name)
   room_message = []
   counter = 1
   name.each do |speaker|
-    room_message << "Hello, #{speaker}! You'll be assigned to room #{counter}"
+    room_message << "Hello, #{speaker}! You'll be assigned to room #{counter}!"
     counter += 1
   end
   room_message
